@@ -75,8 +75,8 @@ def get_readable_time(seconds: int) -> str:
 INNEXIA_IMG = "https://telegra.ph/file/8b6f8f2bb4ff3912634c7.jpg"
 
 PM_START_TEXT = """
-`Heya` 🤗 `I am` **INNEXIA** `your group super bot`
-`I am very fast and  more efficient  I provide awesome  features which a owner will look for  filter ,warn system,note keeping system flood!`
+`- 𝙷𝚎𝚢𝚊𝚊👋`  `🌈𝙰 𝚙𝚘𝚠𝚎𝚛 𝚐𝚛𝚘𝚞𝚙 𝚖𝚊𝚗𝚊𝚐𝚒𝚗𝚐 𝚋𝚘𝚝 𝚠𝚒𝚝𝚑 𝚎𝚡𝚝𝚛𝚊 𝚏𝚎𝚊𝚝𝚞𝚛𝚎𝚜❤️🥀`
+`|| 𝙾𝚞𝚛 𝙰𝚜𝚜𝚒𝚜𝚝𝚊𝚗𝚝 𝚋𝚘𝚝: @Quincy_Assist || 𝚃𝚑𝚊𝚗𝚡❤️🥀`
 """
 
 buttons = [
@@ -85,9 +85,9 @@ buttons = [
             text="❔Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ ❔", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="🔥 Sᴏᴜʀᴄᴇ", url=f"https://github.com/DarkCybers/innexia"),
+        InlineKeyboardButton(text="🔥 Sᴏᴜʀᴄᴇ", url=f"https://github.com/NexusNoob/Quincy-Bot"),
         InlineKeyboardButton(
-            text="Vᴄ Pʟᴀʏᴇʀ 🎶", url=f"https://telegra.ph/Innexia-Vc-Player-08-19"
+            text="Vᴄ Pʟᴀʏᴇʀ 🎶", url=f"https://github.com/NexusNoob/Quincy-Music"
         ),
     ],
     [
@@ -97,7 +97,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="💕 Sᴜᴍᴍᴏɴ Mᴇ 💕", url="http://t.me/Innexiabot?startgroup=true"),
+        InlineKeyboardButton(text="💕 Sᴜᴍᴍᴏɴ Mᴇ 💕", url="http://t.me/missquincy_bot?joingroup=true"),
     ],
 ]
 
@@ -105,11 +105,6 @@ buttons = [
 HELP_STRINGS = """
 **SETTINGS**
 `Click on the buttons below to get documentation about specific modules..`)"""
-
-
-
-DONATE_STRING = """Heya, glad to hear you want to donate!
- @SiderzDonate's 💕"""
 
 IMPORTED = {}
 MIGRATEABLE = []
